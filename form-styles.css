@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.main{
+    padding: 3%;
+    font-family: Montserrat;
+}
+
+
+
+tr:nth-child(even) {
+    background-color:#242424;
+}
+
+th , td{
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.form-right table{
+    border-collapse: collapse;
+   
+    text-align: left;
+    width: 100%;
+    color: #eaebea;
+    
+}
+
+input[type=text], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #eaebea;
+    box-sizing:border-box;
+}
+
+#submit-form{
+    background-color: #d8323c;
+    border: none;
+    color: #eaebea;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    
+    font-family: Montserrat;
+    width: 100%;
+    
+}
+
+#submit-form:hover{
+    background-color: #9c212a;
+}
+
+.form-h3, label{
+    color: #eaebea;
+    
+}

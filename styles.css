@@ -1,0 +1,210 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+#header{
+    background-color: #0c0e0c;
+    width: 100%;
+    height: 100vh;
+    background-position: center ;  
+}
+
+.top-nav{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 18px;
+    float: right;  
+}
+
+.top-nav a{
+    font-family: Montserrat;
+    color: #eaebea;
+    text-decoration: none;
+    text-align: left;
+    padding: 14px 16px;
+    position: relative;
+    font-size: 18px;
+    margin-left: 20px;  
+}
+
+.top-nav a:hover{
+    color: #d8323c;   
+}
+
+
+.top-nav a:after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #d8323c;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.top-nav a:hover::after, a.active::after{
+    width: 100%;
+    transition: 0.5s;   
+}
+
+.top-nav a.active{
+    color: #d8323c;  
+    
+}
+
+.rp{
+    padding: 16px;
+    color: #d8323c;
+    font-family: Montserrat;
+    float: left;   
+}
+
+.rp a{
+    text-decoration: none;
+    color: #d8323c;
+}
+
+.top-back-lr{
+    padding: 5%;
+}
+
+.header-text{
+    margin-top: 100px;
+    float: left;
+    width: 50%;  
+}
+
+.header-img{
+    float: right;
+    width: 50%;
+}
+
+.camera{
+    width: 500px;
+    margin-top: 50px;
+    padding: auto;
+    transition: all 1s ease-in-out;  
+}
+
+.camera:hover{
+    width: 520px;
+    transition: width 1s ease;   
+}
+
+.header-text h1{
+    color: #eaebea;
+    font-size: 80px;
+    padding: 30px;
+}
+
+.header-text span{
+    color: #d8323c;
+}
+
+.btn{
+    background-color: #d8323c;
+    border: none;
+    color: #eaebea;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 30px;
+    font-family: Montserrat;
+}
+
+.btn:hover{
+    background-color: #9c212a;
+}
+
+
+/*CSS for small screens*/
+
+@media only screen and (max-width: 600px){
+    .camera{
+        width: 250px;
+    }
+
+    .camera:hover{
+        width: 270px;
+    }
+
+    .header-text h1{
+        padding: 0%;
+        font-size: 30px;  
+    }
+
+    .btn{
+        font-size: 14px;
+        padding: 7px 16px;
+    }
+
+    .header-text{
+        width: 100%;
+    }
+
+    .header-img{
+        width: 100%;
+    }
+
+    .header{
+        height: 100vh;
+    }   
+}
+ 
+
+
+/*----------------------------------Gallery page styles------------------------*/
+
+.photos img{
+    width: 300px;
+    height:220px;
+    margin: 0px;
+    padding: 5px;
+    display: inline-block;
+    display: flex;
+    border: solid .5px #eaebea;
+    
+}
+
+.photo-left{
+    float: left;
+    padding-left: 23%;
+
+}
+
+.photos{
+    padding:2%;
+    margin: 50px;
+    align-items: center;
+    
+}
+
+
+/*----------------------------------About us page styles------------------------*/
+
+.about{
+    padding-top: 40px;
+    padding-left: 380px;
+    margin: 100px;
+}
+
+.about li{
+    
+    color: #eaebea;
+    list-style-type: square;
+    font-size: 36px;
+    margin: 30px;
+
+    
+}
+
+
+
+

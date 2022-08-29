@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <link rel="stylesheet" href="/form-styles.css">
+    <link rel="stylesheet" href="/styles.css">
+    
+</head>
+<body>
+    <div id="header">
+        <h2 class="rp"><a href=#home>Camera Lanka</a></h2>
+        <!------------------------->
+        <div class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="#products">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#contactus">Contact Us</a>
+            <a href="/aboutus.html">About Us</a>
+        </div>
+        <br><br>
+
+    <div class="main">
+        <div class="form-left">
+            <h3 class="form-h3">Inquiry for Discounts</h3>
+            <br>
+            <form>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your First Name" required>
+                <br>
+                <label for="fname">Last Name: </label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your Last Name" required>
+                <br>
+                <label for="email">E-Mail: </label>
+                <input type="email" id="email" name="email" placeholder="Enter your E-Mail" required>
+                <br><br>
+                <input type="submit" id="submit-form" name="submit" value="Submit" onclick="window.alert('Thank you! We will send you an E-mail soon.')">
+            </form>
+            <br><br><br>
+        </div>
+        <div class="form-right">
+            <table border="1">
+                <tr>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Body only</td>
+                    <td>Rs. 156,999/=</td>
+                </tr>
+                <tr>
+                    <td>Body + 18-55mm lens</td>
+                    <td>Rs. 199,999/=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
